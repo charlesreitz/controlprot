@@ -1,0 +1,75 @@
+/* basedo no subSilver.css do phpbb */
+ /* general page style. The scroll bar colours only visible in IE5.5+ */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* style of links */
+a:link { COLOR: #ffc109; TEXT-DECORATION: none }
+a:visited { COLOR: #ffc109; TEXT-DECORATION: none }
+a:hover { COLOR: #FFFFFF; TEXT-DECORATION: underline }
+
+td { FONT-SIZE: 8pt; COLOR: #CCCCCC; FONT-FAMILY: verdana, arial, helevica, sans-serif }
+
+/* general font families for common tags */
+font,th,td,p { 
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* style for codes */
+
+hr	{ height: 0px; border: solid #D1D7DC 0px; border-top-width: 1px;}
+
+h1 { 
+   font-size: 36px;
+   color: #00458a;
+}
+
+/* Color and background from forms */
+.formulario
+{
+	font-size: 10 px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #cccccc;
+	border: 1 solid #cccccc;
+	background-color: #000000;
+}
+
+.code 
+{
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #FFFFFF; border: 1px #98AAB1 solid; }
+
+/* General site text */
+.siteTitle		{ font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size : 24px; font-weight : bold; text-decoration : none; line-height : 120%; color : #006699; }
+.siteTitleSub	{ font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size : 16px; font-weight : text-decoration : none; color : #006699; }
+
+.siteTextSmall	{ font-size : 9px; font-family: Verdana, Arial, Helvetica, sans-serif}
+.siteTextMed	{ font-size : 10px; font-family: Verdana, Arial, Helvetica, sans-serif}
+.siteText,p,td	{ font-size : 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a.siteText,a.siteTextMed,a.siteTextSmall { color: #006699; text-decoration: none; }
+a.siteText:hover,a.siteTextMed:hover,a.siteTextSmall:hover	{ color: #FF6600; text-decoration: underline; }
+
+/* Footer links */
+.siteFooterLinks	{ font-size : 11px; color : #333333; ; font-family: Verdana, Arial, Helvetica, sans-serif }
+a.siteFooterLinks, a.siteFooterLinks:visited	{ color: #333333; text-decoration: none; }
+a.siteFooterLinks:hover	{ color: #004c75; text-decoration: underline; }
+
+
+/* Main table cell colours and backgrounds */
+td.row1	{ background-color: #EFEFEF; }
+td.row2	{ background-color: #DEE3E7; }
+/*td.row3	{ background-color: #D1D7DC; }*/
+
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #444444; letter-spacing: -1px;}
+a.copyright		{ color: #444444; text-decoration: none;}
+a.copyright:hover { color: #000000; text-decoration: underline;}

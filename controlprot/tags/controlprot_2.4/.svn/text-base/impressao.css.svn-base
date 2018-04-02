@@ -1,0 +1,31 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+body{
+	margin: 0;
+	padding: 0;
+	background: url(images/img01.gif) repeat-x left top;
+    background-color:white;
+    font-size:11px;
+	font-family:verdana, "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    text-align:justify;
+}
+table{
+	margin: 0px;
+	padding: 0px;
+    background-color:white;
+    font-size:11px;
+	font-family:verdana, "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    text-align:justify;
+}
+.tab td, th{
+	margin: 0;
+	padding: 5px;
+
+}
+th {
+    color:black;
+    background-color:#E8E8E8;
+}

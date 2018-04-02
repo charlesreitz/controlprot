@@ -1,0 +1,394 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/img01.gif) repeat-x left top;
+    background-color:white;
+    font-size: 13px;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    text-align:justify;
+}
+
+.fundoLogin{
+    position:relative;
+    height:350px;
+    
+    /*####USAR SOMENTE PARA LOGO ######*/
+    background: url('images/logo.png') no-repeat center top;
+    top:50px;
+
+    /*####USAR SOMENTE PARA LOGO SEGUNDO OPCAO######*/
+    /*background: url('images/logo_segundaopcao.png') no-repeat center top;
+    top:100px;*/
+}
+.index{
+    position:relative;
+
+    /*####USAR SOMENTE PARA LOGO ######*/
+    top:220px;
+    
+    /*####USAR SOMENTE PARA LOGO SEGUNDO OPCAO######*/
+    /*top:60px;*/
+
+    z-index:0;
+    
+}
+
+.fundoTransparente{
+   position:absolute;
+   background: url('images/fundo_transparente_preto.png') repeat center top;
+   top:0px;
+   visibility:visible;
+   overflow:hidden;
+   height:100%;
+   width:100%;
+   z-index:1;
+
+}
+.trocaSenha{
+    margin-top:20%;
+    background-color:black;
+    height:100px;
+    width:300px;
+    z-index:2;
+
+}
+
+.linkImpressao a:link, .linkImpressao a:visited, .linkImpressao a:active{
+    font-size:13px;
+    color:green;
+    text-decoration:underline;
+}
+.linkLogin a:link, .linkLogin a:visited,.linkLogin a:active{
+    font-size:13px;
+    color:green;
+    text-decoration:underline;
+}
+.linkLogin a:hover{
+    font-size:13px;
+    color:black;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+   
+}
+
+a:link, a:visited, a:active {
+	color:white;
+    text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+img {
+	border: none;
+}
+        /* Header */
+
+#header {
+	width: 713px;
+	margin: 0 auto;
+	height: 42px;
+}
+
+/* Menu */
+
+#menu {
+    float: left;
+	width: 713px;
+	height: 50px;
+	background: url(images/img02.gif) no-repeat left top;
+}
+
+#menu ul {
+	padding-bottom:0px;
+    padding-left:70px;
+    padding-right:50px;
+    list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+    display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	background: url(images/img04.gif) no-repeat right 80%;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding-top:8px;
+    padding-right:5px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #000000;
+}
+
+#menu a:hover { 
+	color: red;
+    text-decoration:underline
+}
+
+#menu .current_page_item a {
+	color: #000000;
+}
+
+/** LOGO */
+
+#logo {
+	width: 713px;
+	height: 60px;
+	margin: 0 auto;
+    
+    background: url('images/logo_index2.png') no-repeat left top;
+}
+
+/* Page */
+
+#page {
+	width: 663px;
+    min-height:250px;
+	margin: 0 auto;
+    background: #4C4C4C url(images/img03.gif) no-repeat left bottom;
+	padding: 0px 25px;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+/* Footer */
+
+#footer {
+    margin: 0 auto;
+}
+
+#legal {
+	clear: both;
+	padding-top: 5px;
+	text-align: center;
+	color: black;
+}
+
+/*formulario*/
+input{
+border-style:solid;
+border-color:black;
+border-width:1px;
+font-size:12px;
+padding:2px;
+}
+/*##### BOTÕES ESPECIAIS #######*/
+/*.red input{
+border-style:solid;
+border-color:black;
+border-width:1px;
+font-size:11px;
+background-color:#EE3B3B;
+padding:3px;
+color:black;
+}
+.orange input{
+border-style:solid;
+border-color:black;
+border-width:1px;
+font-size:11px;
+background-color:#FFC125;
+padding:3px;
+color:black;
+}*/
+.green input{
+border-style:solid;
+border-color:black;
+border-width:1px;
+font-size:12px;
+background-color:green;
+padding:3px;
+color:white;
+font-weight:bold;
+}
+.green2 input{
+border-style:solid;
+border-color:black;
+border-width:1px;
+font-size:12px;
+background-color:#9AFF9A;
+padding:3px;
+color:black;
+font-weight:bold;
+margin:3px;
+
+}
+/*_______________________________*/
+.descCampoAdm{
+    color:black;
+    font-weight:bold;
+    font-size:12px;
+}
+th {
+    color:black;
+    background-color:#E8E8E8;
+}
+
+ .descCampo{
+    color:white;
+    font-weight:bold;
+
+}
+
+.consulta{
+    background-color:silver;
+    font-family:"Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    font-weight:bold;
+}
+
+
+ .descCampoConsulta{
+    color:white;
+    font-weight:bold;
+    padding-right:15px;
+}
+
+.resultCampo{
+    color:white;
+}
+
+.tabItemProtocolo{
+    border:1px;
+    border-style:solid;
+    border-color:black;
+}
+.msg{
+    padding:3px;
+    margin:0 auto;
+    width:600px;
+    
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:blue;
+}
+.msgR{
+    padding:10px 10px;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:red;
+}
+.msgY{
+    padding:10px 10px;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:orange;
+}
+.msgG{
+    padding:10px 10px;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:green;
+}
+
+h3, h4, h5{
+    color:white;
+}
+
+
+
+/*###############INICIO DIV ADM (APARECE E DESAPARECE)##################*/
+#central {
+    position:absolute;
+    visibility:hidden;
+    overflow:hidden;
+    background-color:white;
+    border:1px;
+    border-style:ridge;
+    margin:0 auto;
+    margin-left:-385px;
+    left:52%;
+    top:60px;
+    padding:5px;
+    }
+/*______________FIM DIV ADM (APARECE E DESAPARECE)_____________*/
+
+
+/*###############INICIO MENU ADMINISTRADOR##################*/
+
+    #menuhor {
+border:none;
+margin: 0;
+font-size: 12px;
+    	
+}
+
+#menuhor li{
+list-style: none;
+margin: 0;
+display: inline;
+
+}
+#menuhor li a,#menuhor li a:link,#menuhor li a:visited{
+height:1px; /* IE5.0 bug */
+width:141px;
+padding: 5px 26px;
+margin:0;
+border: 1px;
+border-style:solid;
+border-color:black;
+background:#FFFFC0;
+text-decoration: none;
+color:black;
+text-align:center;
+}
+
+#menuhor li a:active{
+background: #FFFF80;
+color:#FF0000;
+border-color: #FF0000;
+
+
+}
+
+#menuhor li a:hover{
+background: #FFFF80;
+color:#FF0000;
+border-color: #FF0000;
+
+}
+/*______________________ FIM MENU ADMINISTRADOR ______________*/
+

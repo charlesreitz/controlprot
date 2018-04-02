@@ -1,0 +1,120 @@
+/* 
+    Document   : adm
+    Created on : 26/05/2009, 14:37:47
+    Author     : MEGA_M5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body {
+	margin: 0;
+	padding: 0;
+    background-color:white;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+text-align:justify;
+}
+
+.msg{
+    padding:10px 10px;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:red;
+}
+.msgR{
+    padding:10px 10px;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:red;
+}
+.msgY{
+    padding:10px 10px;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:orange;
+}
+.msgG{
+    padding:10px 10px;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background-color:#E8E8E8;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    color:green;
+}
+
+
+p, label, th{
+    color:black;
+    font-weight:bold;
+    font-size:13px;
+    text-align:justify;
+    }
+
+
+ .descCampoConsulta{
+    color:white;
+    font-weight:bold;
+    padding-right:15px;
+}
+
+.resultCampo{
+    padding-bottom:5px;
+    color:white;
+}
+
+.descCampo{
+    background-color:silver;
+    font-family:"Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+    font-size:13px;
+    font-weight:bold;
+}
+
+input{
+border-style:solid;
+border-width:1px;
+color:black;
+font-size:13px;
+background:#F0F0F0;
+}
+
+
+/*############# INICIO CSS RESULTADO DA CONSULTA ################*/
+.tabConsulta{
+    border:1px;
+    border-style:solid;
+    border-color:black;
+    
+    width:600px;
+}
+
+/*______________FIM CSS RESULTADO DA SONCULTA______________________*/
+
